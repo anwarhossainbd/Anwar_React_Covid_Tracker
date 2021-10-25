@@ -52,7 +52,16 @@ class Details extends Component {
                     {
                         this.state.countries.map(country=>(
 
-                            <th>Country</th>
+                            <tr key={country.Country}>
+                                <td>{country.Country}</td>
+                                <td>{country.NewConfirmed}</td>
+                                <td>{country.TotalRecovered}</td>
+                                <td>{country.TotalDeaths}</td>
+
+                            </tr>
+
+
+
                         ))
                     }
                     </tbody>
