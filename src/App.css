@@ -2,37 +2,85 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.marginTop{
+  margin-top: 175px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background: #eee;
+  font-family: sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+  background: white;
+  border-bottom: 4px solid darkorange;
+  margin-bottom: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+@media (max-width: 1100px) {
+
+  .row{
+    width: 90%;
+  }
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1000px) {
+
+  .row{
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
+
+.NewConfirmed,
+.TotalConfirmed,
+.NewDeaths,
+.TotalDeaths,
+.TotalRecovered{
+  width: 20%;
+  text-align: center;
+  margin: 20px;
+
+}
+
+
+h3{
+  height: 20px;
+  color: maroon;
+  font-weight: 600;
+
+
+}
+
+h2{
+  height: 20px;
+  color: slateblue;
+  font-weight: 500;
+}
+
+h4{
+  height: 12px;
+  color: deeppink;
+  font-weight: 300;
+}
+
+.NewConfirmed{
+  color: orangered;
+
+}
+
+
+
+
+
+
+
+
+
